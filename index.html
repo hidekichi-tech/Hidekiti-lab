@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>電気オンチのマイコン挑戦記！</title>
+  <style>
+    body {
+      margin: 0;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      grid-template-columns: 200px 1fr;
+      height: 100vh;
+    }
+
+    /* 上段（タイトル） */
+    .title-area {
+      grid-column: 1 / 3;
+      border-bottom: 1px solid #ccc;
+    }
+
+    /* 左メニュー */
+    .menu-area {
+      border-right: 1px solid #ccc;
+    }
+
+    /* 本文 */
+    .content-area {
+      padding: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      height: auto;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 上段：タイトル -->
+  <div class="title-area">
+    <!-- <iframe src="title.html"></iframe> -->
+    <div class="title-inner">
+      <img src="image/HideFaicePict/MessedUp!2.png" class="header-img">
+      <h1 class="title-text">電気オンチのマイコン挑戦記！</h1>
+    </div>
+  </div>
+
+  <!-- 左：メニュー -->
+  <div class="menu-area">
+    <iframe src="menu.html"></iframe>
+  </div>
+
+  <!-- 右：本文 -->
+  <div class="content-area">
+    <iframe src="home.html" name="mainFrame"></iframe>
+  </div>
+
+</body>
+</html>
