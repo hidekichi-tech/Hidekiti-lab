@@ -28,6 +28,10 @@ body {
 }
 */
 
+.header-counter img {
+  height: 30px; /* カウンターの高さ調整 */
+}
+
 .title-area {
   grid-column: 1 / 3;
   border-bottom: 1px solid #ccc;
